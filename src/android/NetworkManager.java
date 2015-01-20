@@ -257,6 +257,9 @@ public class NetworkManager extends CordovaPlugin {
                         type.toLowerCase().equals(HSPA_PLUS)) {
                     return TYPE_4G;
                 }
+            } 
+            else if (type.toLowerCase().equals(TYPE_ETHERNET) {
+                 return TYPE_ETHERNET;
             }
         }
         else {
